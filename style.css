@@ -200,3 +200,11 @@ img {
   min-height: 95%;
   border-radius: 5px;
 }
+
+@media (max-device-width: 1024px) {
+  .container {
+    width: 90%;
+    padding: 10px;
+    grid-template-columns: 100%;
+  }
+}
