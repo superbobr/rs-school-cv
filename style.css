@@ -137,7 +137,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  max-width: 80%;
   margin: auto;
   display: grid;
   grid-template-columns: 30% 60%;
